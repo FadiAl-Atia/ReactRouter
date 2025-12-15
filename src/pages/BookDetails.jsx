@@ -45,11 +45,7 @@ export default function BookDetail() {
         {book.description && (
           <div>
             <h2>Description</h2>
-            <p>
-              {typeof book.description === "string"
-                ? book.description
-                : book.description.value}
-            </p>
+            <p>{book.description}</p>
           </div>
         )}
 

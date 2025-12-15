@@ -16,7 +16,7 @@ function Navbars() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Button>
-              <Link to="/home">
+              <Link to="/">
                 <p style={{ color: "white" }}>Home</p>
               </Link>
             </Button>
