@@ -5,8 +5,10 @@ import { Button } from "react-bootstrap";
 export default function Home() {
   return (
     <>
-      <Button>Test</Button>
-      <div>This is home</div>
+      <h1 style={{ color: "red" }}>Welcome to Books Apps</h1>
+      <h2 style={{ color: "red" }}>
+        Navigate to the books page from the navbar
+      </h2>
     </>
   );
 }
